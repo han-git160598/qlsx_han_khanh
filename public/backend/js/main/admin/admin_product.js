@@ -42,7 +42,7 @@ function update_product_module(id) {
         var fileToUpload = $('#img_product_module').prop('files')[0];
 
         if (fileToUpload == undefined) {
-            fileToUpload = '123';
+            fileToUpload = '';
         }
         console.log(fileToUpload)
         console.log($('#id_account').val());

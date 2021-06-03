@@ -152,7 +152,7 @@ function update_service_service(id) {
     console.log(id)
     var fileToUpload = $('#img_service_detail').prop('files')[0];
     if (fileToUpload == undefined) {
-        fileToUpload == '';
+        fileToUpload = '';
     }
 
     var formData = new FormData();

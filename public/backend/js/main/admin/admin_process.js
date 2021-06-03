@@ -182,7 +182,7 @@ $(".modal span.icon").click(function() {
 function update_process_process(id) {
     var fileToUpload = $('#img_process_process_edit').prop('files')[0];
     if (fileToUpload == undefined) {
-        fileToUpload == '';
+        fileToUpload = '';
     }
     var formData = new FormData();
     formData.append("detect", "process_process_manager");

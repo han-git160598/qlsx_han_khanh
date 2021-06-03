@@ -207,6 +207,7 @@ function update_about_about(id) {
     if (fileToUpload == undefined) {
         fileToUpload = '';
     }
+    console.log(fileToUpload)
     var formData = new FormData();
     formData.append("detect", "about_about_manager");
     formData.append("type_manager", "update_about_about");

@@ -91,7 +91,7 @@
             <div class="modal-title">
                 <h4>Thay đổi hình</h4>
                 <span class="icon" data-tag="a">
-                    <img src="public/images/x-black.png" alt="">
+                    <img src="{{asset('ctp_admin_web/images/x-black.png')}}" alt="">
                 </span>
             </div>
             <div class="modal-content">
@@ -113,7 +113,7 @@
                         <span class="form-file-img" data-target="add_module" data-id="1"></span>
 
                         <span data-tag="a" type="cancel_thumb_nails" class="form-file-view-img-close" data-target="add_module" data-id="1">
-                            <img src="public/images/x_thumb_nail.png"  alt="">
+                            <img src="{{asset('ctp_admin_web/images/x_thumb_nail.png')}}"  alt="">
                         </span>
                         <strong class="form-file-img-title" data-target="add_module" data-id="1">Tải logo của bạn lên đây</strong>
                         <span class="form-file-view-img" data-target="add_module" data-id="1">
@@ -132,7 +132,7 @@
             <div class="modal-title">
                 <h4>Thay đổi hình</h4>
                 <span class="icon" data-tag="a">
-                    <img src="public/images/x-black.png" alt="">
+                    <img src="{{asset('ctp_admin_web/images/x-black.png')}}" alt="">
                 </span>
             </div>
             <div class="modal-content">
@@ -155,7 +155,7 @@
                         <span class="form-file-img" data-target="edit_module" data-id="1"></span>
 
                         <span data-tag="a" type="cancel_thumb_nails" class="form-file-view-img-close" data-target="edit_module" data-id="1">
-                            <img src="public/images/x_thumb_nail.png" alt="">
+                            <img src="{{asset('ctp_admin_web/images/x_thumb_nail.png')}}" alt="">
                         </span>
                         <strong class="form-file-img-title" data-target="edit_module" data-id="1">Tải logo của bạn lên đây</strong>
                         <span class="form-file-view-img" data-target="edit_module" data-id="1">
@@ -177,12 +177,12 @@
             <div class="modal-title">
                 <h4>Xóa thông tin</h4>
                 <span class="icon" data-tag="a">
-                    <img src="public/images/x-black.png" alt="">
+                    <img src="{{asset('ctp_admin_web/images/x-black.png')}}" alt="">
                 </span>
             </div>
             <div class="modal-content">
                 <div class="mg-t-2rem t-center">
-                    <span class="d-inline-block tick-success "><img src="public/images/warning-del.png " alt=" "></span>
+                    <span class="d-inline-block tick-success "><img src="{{asset('ctp_admin_web/images/warning-del.png ')}}" alt=" "></span>
                     <p class="t-center mg-t-2rem fz-125rem">Bạn có chắc muốn xóa hình ảnh này?</p>
                 </div>
                 <div class="t-center mg-t-175rem" id="btn_delete_home">
